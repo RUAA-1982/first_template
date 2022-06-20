@@ -1,0 +1,236 @@
+
+@media(max-width:540px){
+    .container{
+        width:510px;
+    }
+    .price-header::after {
+        left:86px
+        
+        }
+
+}
+
+
+@media (min-width:576px) { /* phone */
+    .container{
+        max-width: 540px;
+    }
+    .price-header::after {
+        left: 114px;
+    }
+  
+   
+    
+}
+@media (min-width:768px) {/* tabllets*/
+    .container{
+        max-width: 720px;
+    }
+    .price-header::after {
+        left:187px
+        
+        }
+   
+    
+    
+}
+@media (min-width:992px) {  /* desk top*/
+    .container{
+        max-width: 960px;
+    }
+    .price-header::after {
+        left:-1px;
+        width:-3px;
+        
+        }
+
+
+
+
+    
+}
+@media (min-width:1200px) {  /*  large screen*/
+    .container{
+        max-width:1140px;
+    }
+    
+    
+}
+
+
+@media(min-width:440px)and(max-width:770px){
+    .slider .header .navbar .links.open{
+
+        position: absolute;
+        width:250px;
+        height: 200px;
+        background-color: white;
+        top:80px;
+        left: 180px;
+       
+        display: block;
+      padding: 20px;
+
+    }
+}
+
+
+
+@media(max-width:992px){
+   
+    .slider .header .navbar .toggle{
+        display: block;
+        float:right;
+        margin-top: -9px;
+        margin-right: 42px;
+        position:relative;
+        
+        
+        
+    }
+    .slider .header .navbar .links.open{
+
+        position: absolute;
+        width:250px;
+        height: 200px;
+        background-color: rgb(15, 15, 15);
+        top:80px;
+        left: 180px;
+       
+        display: block;
+      padding: 20px;
+
+    }
+    
+    .slider .header .navbar .links.open li{
+        width:100%;
+display: block;
+text-align: left;
+margin-bottom: 10px;
+    }
+    .slider .header .navbar .links.open li a{
+        display: block;
+       color:var(--main-color);
+       cursor: pointer;
+
+    }
+    .slider .header .navbar .links.open li a:hover{
+        color:greenyellow;
+    }
+
+    .slider .header .navbar .links{
+        display: none;
+    }
+    .slider .header .logo{
+        font-size: 24px;
+    }
+    .slider .introduction  h2{
+        font-size: 35px;
+    }
+    
+    .arrow-left,.arrow-right{
+        display: none;
+    }
+
+.our-company .company-info{
+    display: block;
+    text-align: center;
+}
+.our-company .company-info .company-info-del{
+    width:100%;
+
+}
+.company-story{
+    display: block;
+    
+}
+.our-story{
+    width:100%;
+    margin-bottom: 130px;
+}
+.company-exper{
+    width:100%;
+    margin-bottom: 80px;
+}
+.interse .interse-number h1{
+    font-size: 30px;
+}
+
+
+.crew-image {
+    display: block;
+    text-align: center;
+}
+.crew-image .ing-divdul1{
+    width:300px;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+.overlay-front{
+    width:83%;
+    left:25px;
+    
+}
+.overlay-text{
+    left:70px;
+}
+
+
+.great .great-title ul li{
+    line-height: 4;
+}
+
+
+
+.great-images .great-img {
+    width:100%;
+}
+
+.our-work .work-info .work-info-del{
+    width:100%;
+}
+.price-affore{
+    display: block;
+}
+.price-inf{
+    width:90%;
+    margin: 30px auto;
+}
+
+
+
+.all-opinin{
+    height:330px;
+}
+.client-opin1 p, .client-opin2 p, .client-opin3 p {
+    line-height: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.work-form{
+    display: block;
+}
+
+.work-form .work-form-info {
+    margin: 100px auto;
+    width:90%
+
+
+}
+
+}
+
+
+@media(min-width:765px){
+    .slider .header .navbar .links.open{
+        
+        top:80px;
+        left: 350px;
+}
+
+}
+
+
+
